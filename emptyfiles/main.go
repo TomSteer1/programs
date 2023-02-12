@@ -8,7 +8,7 @@ import (
 var emptyFiles []string
 
 func main() {
-	checkDir("T:")
+	checkDir(os.Args[1])
 }
 
 func checkDir(root string) {
